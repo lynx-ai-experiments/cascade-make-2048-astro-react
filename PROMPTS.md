@@ -14,3 +14,16 @@ Even though Cascade was in Write mode, it just gave me instructions to create
 the project, including generated code, but expected me to do it manually. The
 code in this repo is that generated code, manually added as instructed by
 Claude.
+
+# Step 2: Code cleanup
+
+## [Attempt 1](https://github.com/lynx-ai-experiments/cascade-make-2048-astro-react/blob/step2-att1-cleanup/PROMPTS.md)
+
+## Attempt 2
+
+> I followed your instructions to set up the project myself. Clean up the code
+> and remove any code or assets we're not using.
+
+❌ **Failed.** Cascade did not sense that the code already existed, so it
+overwrote several things and, instead of leaving the code cleaner, added a bunch
+of random hanging files.

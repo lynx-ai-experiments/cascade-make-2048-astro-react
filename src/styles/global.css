@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .game-tile {
+    @apply w-16 h-16 flex items-center justify-center text-2xl font-bold rounded-md shadow-md;
+  }
+
+  .tile-2 { @apply bg-tile-2 text-gray-700; }
+  .tile-4 { @apply bg-tile-4 text-gray-700; }
+  .tile-8 { @apply bg-tile-8 text-white; }
+  .tile-16 { @apply bg-tile-16 text-white; }
+  .tile-32 { @apply bg-tile-32 text-white; }
+  .tile-64 { @apply bg-tile-64 text-white; }
+  .tile-128 { @apply bg-tile-128 text-white text-xl; }
+  .tile-256 { @apply bg-tile-256 text-white text-xl; }
+  .tile-512 { @apply bg-tile-512 text-white text-xl; }
+  .tile-1024 { @apply bg-tile-1024 text-white text-lg; }
+  .tile-2048 { @apply bg-tile-2048 text-white text-lg; }
+}
