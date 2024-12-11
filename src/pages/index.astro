@@ -1,13 +1,15 @@
 ---
 import Game2048 from '../components/Game2048';
+import '../styles/global.css';
 ---
 
-<html>
+<html lang="en">
   <head>
-	<title>2048 Game</title>
-	<link rel="stylesheet" href="/styles/global.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 Game</title>
   </head>
   <body>
-	<Game2048 />
+    <Game2048 client:load />
   </body>
 </html>
